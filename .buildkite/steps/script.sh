@@ -15,6 +15,9 @@ git remote update
 git fetch --all
 git rev-parse HEAD
 
+  git config --global user.email "bot@gmail.com"
+  git config --global user.name "bot"
+
 GitHub_Sha=${BUILDKITE_COMMIT:-$(git rev-parse HEAD)}
 echo "$BUILDKITE_BUILD_NUMBER"
 echo "$BUILDKITE_BRANCH"
