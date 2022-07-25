@@ -1,4 +1,4 @@
 steps:
   - command: echo "hello"
   - label: ":github: Open Pull Request"
-    command: ./buildkite/script.sh
+    command: .buildkite/script.sh
