@@ -1,7 +1,4 @@
 steps:
-  - label: ":github: Open Pull Request (not recommended)"
-    plugins:
-      - envato/github-pull-request#v0.4.0:
-          title: "Example pull request title"
-    env:
-      - GITHUB_TOKEN=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
+  - command: echo "hello"
+  - label: ":github: Open Pull Request"
+    command: ./buidkite/script.sh
